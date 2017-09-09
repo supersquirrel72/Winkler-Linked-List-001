@@ -77,6 +77,7 @@ public class pushOnPopOff extends javax.swing.JFrame {
         });
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("Enter a number you would like to remove from the list.");
 
         jButton2.setText("Delete");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
