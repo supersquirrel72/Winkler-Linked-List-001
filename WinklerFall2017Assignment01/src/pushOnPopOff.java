@@ -204,7 +204,7 @@ public class pushOnPopOff extends javax.swing.JFrame {
         }
         else
         {
-            jTextArea1.setText("Try again.");
+            jTextArea1.setText("That number is not on the list.");
             jTextField2.setText("");
         }
     }
@@ -230,6 +230,20 @@ public class pushOnPopOff extends javax.swing.JFrame {
     private void jButton2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseReleased
         jTextField2.requestFocusInWindow();
     }//GEN-LAST:event_jButton2MouseReleased
+    
+    private void jTextField1KeyPressed(java.awt.event.KeyEvent evt) {                                       
+        if(evt.getKeyCode() == 10)
+        {
+            jButton1.doClick();
+        }
+    }                                      
+
+    private void jTextField2KeyPressed(java.awt.event.KeyEvent evt) {                                       
+        if(evt.getKeyCode() == 10)
+        {
+            jButton2.doClick();
+        }
+    }
 
     /**
      * @param args the command line arguments
